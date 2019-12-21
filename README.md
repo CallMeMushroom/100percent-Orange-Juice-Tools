@@ -1,2 +1,2 @@
 # 100percent Orange Juice Tools
- tools that can help play 100% Orange Juice
+ Tools that can help wisely play 100% Orange Juice
