@@ -10,7 +10,6 @@ def main():
 
         print('Enemy Attack: ', end='')
         ATK = int(input())
-
         print('Your status (HP, ATK, DEF, EVD): ', end ='')
         you = Unit()
         
@@ -41,10 +40,10 @@ def main():
     def offensive():
 
         print('Your status (HP, ATK, DEF, EVD): ', end ='')
-        you = Unit()
-            
-        print('Enemy status (HP,ATK, DEF, EVD):')
+        you = Unit()        
+        print('Enemy status (HP, ATK, DEF, EVD):', end='')
         enemy = Unit()
+        # WORK IN PROGRESS
 
 
     while True:
