@@ -56,8 +56,8 @@ def main():
         mode = input().lower()
 
         if mode in ('d', '1', 'defensive', 'def'):
-        # Player is the defender
-            ATK = checked_input('Enemy attack: ', int)            
+        # User is the defender
+            ATK = checked_input('Enemy attack: ', int)
             you = Unit('Your')
 
             for action in 'DEF', 'EVD':
@@ -67,11 +67,12 @@ def main():
                     print(f'[{action}] CERTAIN DEATH.')
                 else:
                     print(f'[{action}] {die_count / 6 * 100:.2f}% Die;')
-                    print(' ' * 5, f'{(6-die_count) / 6 * 100:.2f}% Survive, avarage damage: {total_damage / (6-die_count):.2f}.')
+                    print(' ' * 5, f'{(6-die_count) / 6 * 100:.2f}% Survive, \
+                        avarage damage: {total_damage / (6-die_count):.2f}.')
 
 
         elif mode in ('o', '0', 'offensive', 'off'):
-        # Player is the offender
+        # User is the offender
             you = Unit('Your')        
             enemy = Unit('Enemy')
 
