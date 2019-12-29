@@ -59,7 +59,7 @@ def main():
             elif die_count == 0:
                 print(f'[{action}] SURVIVE. Avarage damage: {total_damage / 6 :.2f}')
             else:
-                print(f'[{action}] {die_count / 6 * 100:.2f}% Die;'
+                print(f'[{action}] {die_count / 6 * 100:.2f}% Die;\n'
                       f'      {(6-die_count) / 6 * 100:.2f}% Survive, avarage damage: {total_damage / (6-die_count):.2f}')
 
 
